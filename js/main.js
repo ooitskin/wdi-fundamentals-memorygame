@@ -37,13 +37,10 @@ var flipCard = function(){
 	this.setAttribute("src", card.cardImage);
 	this.setAttribute("class", "clicked");
 
+	cardsInPlay.push(cards[cardId].rank);
 	if(cardsInPlay.length === 2){
 		checkForMatch();
 	}
-	console.log('User flipped ' + cards[cardId].rank);
-	console.log(cards[cardId].cardImage);	
-	console.log(cards[cardId].suit);
-	cardsInPlay.push(cards[cardId].rank);
 };
 
 var createBoard = function(){

@@ -38,6 +38,10 @@ a {
 	border-bottom:  2px solid transparent;
 }
 
+a:hover {
+	border-color: white;
+}
+
 h2 {
 	font-family: "Raleway", sans-serif;
 	color: #0D2C40;
@@ -54,6 +58,17 @@ p {
 
 img {
 	margin: 40px 8px;
+}
+
+input {
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+	background-color: #F15B31;
+	color: #FFFFFF;
+	border: 2px solid #0D2C40;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 70px;
 }
 
 footer {
@@ -74,6 +89,11 @@ footer {
 	float: right;
 }
 
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -81,13 +101,4 @@ footer {
   clear: both;
   height: 0;
   font-size: 0;
-}
-
-.name {
-	color: #F15B31;
-	font-weight: 700;
-}
-
-a:hover {
-	border-color: white;
 }
